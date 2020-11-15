@@ -115,6 +115,7 @@ let attributes : (FSharpName * HtmlName * AttributeType) list =
       "_coords", "coords", AttributeType.String
       "_crossOrigin", "crossOrigin", AttributeType.String
       "_data_name", "data-name", AttributeType.String
+      "_data_wait", "data-wait", AttributeType.String
       "_dataToggle", "data-toggle", AttributeType.String
       "_dateTime", "dateTime", AttributeType.String
       "_default", "default", AttributeType.Bool
@@ -124,6 +125,7 @@ let attributes : (FSharpName * HtmlName * AttributeType) list =
       "_download", "download", AttributeType.Obj
       "_draggable", "draggable", AttributeType.Bool
       "_encType", "encType", AttributeType.String
+      "_for", "for", AttributeType.String
       "_form", "form", AttributeType.String
       "_formAction", "formAction", AttributeType.String
       "_formEncType", "formEncType", AttributeType.String
@@ -156,12 +158,12 @@ let attributes : (FSharpName * HtmlName * AttributeType) list =
       "_marginHeight", "marginHeight", AttributeType.Float
       "_marginWidth", "marginWidth", AttributeType.Float
       "_max", "max", AttributeType.Obj
-      "_maxLength", "maxLength", AttributeType.Float
+      "_maxlength", "maxLength", AttributeType.String
       "_media", "media", AttributeType.String
       "_mediaGroup", "mediaGroup", AttributeType.String
       "_method", "method", AttributeType.String
       "_min", "min", AttributeType.Obj
-      "_minLength", "minLength", AttributeType.Float
+      "_minlength", "minLength", AttributeType.String
       "_multiple", "multiple", AttributeType.Bool
       "_muted", "muted", AttributeType.Bool
       "_name", "name", AttributeType.String
