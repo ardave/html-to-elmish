@@ -100,7 +100,7 @@ let private navbar dispatch =
         [ Navbar.Brand.div [ ]
             [ Navbar.Item.a [ ]
                 [ strong [ ]
-                    [ str "Html to Elmish" ] ] ]
+                    [ str "Html to Giraffe" ] ] ]
           Navbar.Start.div [ ]
             [ Navbar.Item.div [ Navbar.Item.HasDropdown
                                 Navbar.Item.IsHoverable ]
@@ -147,7 +147,7 @@ let view (model :Model) (dispatch : Dispatch<Msg>) =
                     [ Message.message [ ]
                         [ Message.body [ ]
                             [ Text.div [ Modifiers [ Modifier.TextAlignment (Screen.All, TextAlignment.Centered) ] ]
-                                [ str "F# code compatible with Elmish" ] ] ] ] ]
+                                [ str "F# code compatible with Giraffe" ] ] ] ] ]
               Columns.columns [ Columns.IsGapless
                                 Columns.IsMultiline
                                 Columns.Props [ Style [ Height "100%" ] ] ]

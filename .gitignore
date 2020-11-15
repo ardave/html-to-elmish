@@ -12,3 +12,6 @@ paket-files/
 tests/dist/
 
 .ionide/
+/src/WebApp/.vs/HtmlToElmish/DesignTimeBuild/.dtbcache.v2
+/src/WebApp/.vs/HtmlToElmish/v16/.suo
+/src/HtmlConverter/.vs/Fable.HtmlConverter/v16/.suo

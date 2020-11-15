@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <Description>Html to Elmish converter</Description>
+    <Description>Html to Giraffe converter</Description>
     <PackageProjectUrl>https://github.com/MangelMaxime/Html-to-Elmish</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/MangelMaxime/Html-to-Elmish/blob/master/LICENSE.md</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/MangelMaxime/Html-to-Elmish</RepositoryUrl>
